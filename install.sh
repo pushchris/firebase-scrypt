@@ -16,6 +16,6 @@ sudo git clone https://github.com/firebase/scrypt.git
 echo '  [x] Build Scrypt'
 sudo chmod 755 scrypt
 cd scrypt/
-autoreconf -i
-./configure
-make
+sudo autoreconf -i
+sudo ./configure
+sudo make
