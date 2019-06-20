@@ -1,8 +1,13 @@
+echo '  [x] Clone sysget repo'
+git clone https://github.com/emilengler/sysget.git
+cd sysget/
+make && sudo make install
+
 echo '  [x] Install SLL dev dependency'
-sudo apt install libssl-dev 
+sudo sysget install libssl-dev 
 
 echo '  [x] Install automake'
-sudo apt install automake
+sudo sysget install automake
 
 echo '  [x] Clone firebase Scrypt repo'
 git clone https://github.com/firebase/scrypt.git
