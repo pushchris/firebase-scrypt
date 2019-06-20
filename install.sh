@@ -11,7 +11,7 @@ echo '  [x] Install automake'
 pacapt install automake
 
 echo '  [x] Clone firebase Scrypt repo'
-git clone https://github.com/firebase/scrypt.git
+sudo git clone https://github.com/firebase/scrypt.git
 
 echo '  [x] Build Scrypt'
 sudo chmod 755 scrypt
