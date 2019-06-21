@@ -5,10 +5,10 @@ sudo chmod 755 /usr/local/bin/pacapt
 sudo ln -sv /usr/local/bin/pacapt /usr/local/bin/pacman || true
 
 echo '  [x] Install SLL dev dependency'
-pacapt install libssl-dev 
+sudo pacapt install libssl-dev 
 
 echo '  [x] Install automake'
-pacapt install automake
+sudo pacapt install automake
 
 echo '  [x] Clone firebase Scrypt repo'
 sudo git clone https://github.com/firebase/scrypt.git
