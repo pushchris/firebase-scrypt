@@ -14,8 +14,7 @@ echo '  [x] Clone firebase Scrypt repo'
 sudo git clone https://github.com/firebase/scrypt.git
 
 echo '  [x] Build Scrypt'
-sudo chmod 755 scrypt
 cd scrypt/
-sudo autoreconf -i
-sudo ./configure
-sudo make
+autoreconf -i
+./configure
+make
