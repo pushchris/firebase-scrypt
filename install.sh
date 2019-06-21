@@ -1,4 +1,5 @@
-
+echo '  [x] Clone pacapt repo'
+sudo wget https://github.com/icy/pacapt/raw/ng/pacapt
 
 echo '  [x] Install SLL dev dependency'
 sudo pacapt install libssl-dev 
