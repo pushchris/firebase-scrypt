@@ -4,6 +4,7 @@ sudo chmod 755 pacapt
 
 echo '  [x] Install SLL dev dependency'
 sudo ./pacapt install libssl-dev 
+sudo ./pacapt install openssl-devel
 
 echo '  [x] Install automake'
 sudo ./pacapt install automake
